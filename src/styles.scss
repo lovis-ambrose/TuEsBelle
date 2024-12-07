@@ -1,2 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+// primeng
+@import "primeicons/primeicons.css";
 
+// add tailwind styles
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// reusing styles
+@layer components {
+  .btn-primary {
+    @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  // overflow: hidden;
+  // overflow-y: auto;
+  // overflow-x: auto;
+
+  ::-webkit-scrollbar {
+    width: 1px;
+    //display:none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    width: 1px;
+    //display:none;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}

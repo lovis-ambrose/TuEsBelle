@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NotFoundComponent} from "./pages/not-found/not-found.component";
@@ -9,7 +9,6 @@ import {NavBarComponent} from "./components/nav-bar/nav-bar.component";
 import {TeamComponent} from "./pages/team/team.component";
 import {AboutComponent} from "./pages/about/about.component";
 import {HomeComponent} from "./pages/home/home.component";
-import {MenubarModule} from "primeng/menubar";
 
 @NgModule({
   declarations: [
@@ -23,8 +22,8 @@ import {MenubarModule} from "primeng/menubar";
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    MenubarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

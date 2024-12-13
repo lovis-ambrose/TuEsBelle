@@ -1,8 +1,8 @@
 import React, { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-import logoDark from '../assets/images/logo-dark.png'
-import logoLight from '../assets/images/logo-white.png'
+import logoDark from '../assets/images/logo192.png'
+import logoLight from '../assets/images/logo192White.png'
 
 
 import NavModal from './nav-modal'
@@ -39,20 +39,20 @@ export default function Navbar() {
                 src={logoDark} 
                 className="l-dark" 
                 alt="" 
-                style={{ width: '50px', height: '50px' }} 
+                style={{ width: '70px', height: '70px' }} 
                 />
                 <img 
                 src={logoLight} 
                 className="l-light" 
                 alt="" 
-                style={{ width: '50px', height: '50px' }} 
+                style={{ width: '70px', height: '70px' }} 
                 />
             </span>
             <img 
                 src={logoLight} 
                 className="logo-dark-mode" 
                 alt="" 
-                style={{ width: '50px', height: '50px' }} 
+                style={{ width: '70px', height: '70px' }} 
             />
         </Link>
 
@@ -73,13 +73,8 @@ export default function Navbar() {
     
             <div id="navigation" className={show ? 'd-block' : 'd-none'}>
                 <ul className="navigation-menu nav-right nav-light">
-                    <li className={`has-submenu parent-menu-item ${['/', '/onepage','/hero-item'].includes(manu) ? 'active' : ''}`}>
-                        <Link to="#" onClick={()=>setManu(manu === '/hero-item' ? '' : '/hero-item')}>Home</Link><span className="menu-arrow"></span>
-                        <ul className={`submenu ${['/', '/onepage','/hero-item'].includes(manu) ? 'open' : ''}`}>
-                            <li className={manu === '/' ? 'active' : ''}><Link to="/" className="sub-menu-item">Hero One</Link></li>
-                            <li className={manu === '/onepage' ? 'active' : ''}><Link to="/onepage" className="sub-menu-item">Onepage</Link></li>
-                        </ul>
-                    </li>
+
+                    <li className={manu === '/' ? 'active' : ''}><Link to="/" className="sub-menu-item">Home</Link></li>
 
                     <li className={manu === '/aboutus' ? 'active' : ''}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
                     

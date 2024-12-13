@@ -48,7 +48,7 @@ export default function Onepage() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="title mb-3">We Have Funded <span className="text-primary">150 Charity Projects</span> for <br/> 10M People Around The World.</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ export default function Onepage() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="title mb-3">Our Volunteers</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ export default function Onepage() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="title mb-3">Blog Or News</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
                     </div>
                 </div>
             </div>

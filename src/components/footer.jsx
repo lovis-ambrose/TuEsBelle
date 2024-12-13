@@ -16,7 +16,7 @@ export default function Footer() {
                     <div className="py-5">
                         <div className="row">
                             <div className="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
-                                <p>The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                                <p>The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
                                 <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                                     {footerSocial.map((item,index)=>{
                                         let Icon = item.icon
@@ -110,7 +110,7 @@ export default function Footer() {
             <div className="container text-center">
                 <div className="row justify-content-center">
                     <div className="col-sm-12">
-                        <p className="mb-0">© {new Date().getFullYear()} Smilecare. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                        <p className="mb-0">© {new Date().getFullYear()} Tu Es Belle. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                     </div>
                 </div>
             </div>

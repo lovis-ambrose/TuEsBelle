@@ -68,7 +68,7 @@ export default function Contact() {
 
                     <div className="mt-4">
                         <h5 className="mb-3">Phone</h5>
-                        <p className="text-muted">Start working with Smilecare that can provide everything</p>
+                        <p className="text-muted">Start working with Tu Es Belle that can provide everything</p>
                         <Link to="tel:+152534-468-854" className="text-primary">+152 534-468-854</Link>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ export default function Contact() {
 
                     <div className="mt-4">
                         <h5 className="mb-3">Email</h5>
-                        <p className="text-muted">Start working with Smilecare that can provide everything</p>
+                        <p className="text-muted">Start working with Tu Es Belle that can provide everything</p>
                         <Link to="mailto:contact@example.com" className="text-primary">contact@example.com</Link>
                     </div>
                 </div>

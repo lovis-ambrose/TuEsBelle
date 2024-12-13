@@ -27,7 +27,7 @@ export default function Faqs() {
             <div className="position-middle-bottom">
                 <nav aria-label="breadcrumb" className="d-block">
                     <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
-                        <li className="breadcrumb-item"><Link to="/">Smilecare</Link></li>
+                        <li className="breadcrumb-item"><Link to="/">Tu Es Belle</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">FAQs</li>
                     </ul>
                 </nav>

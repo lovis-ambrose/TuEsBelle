@@ -28,7 +28,7 @@ export default function Pricing() {
             <div className="position-middle-bottom">
                 <nav aria-label="breadcrumb" className="d-block">
                     <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
-                        <li className="breadcrumb-item"><Link to="/">Smilecare</Link></li>
+                        <li className="breadcrumb-item"><Link to="/">Tu Es Belle</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">Pricing</li>
                     </ul>
                 </nav>
@@ -53,7 +53,7 @@ export default function Pricing() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="mb-4 title">FAQs</h4>
-                        <p className="para-desc mx-auto text-muted">The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="para-desc mx-auto text-muted">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
                     </div>
                 </div>
             </div>

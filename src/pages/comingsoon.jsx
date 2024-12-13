@@ -36,7 +36,7 @@ export default function Comingsoon() {
                             </div>
                             <div className="title-heading text-center my-auto">
                                 <h2 className="title-dark text-white text-uppercase mt-2 mb-4 fw-semibold">Comingsoon</h2>
-                                <p className="text-white para-desc para-dark mx-auto">The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                                <p className="text-white para-desc para-dark mx-auto">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
                             
                                 <div id="countdown">
                                     <ul className="count-down list-unstyled">
@@ -49,7 +49,7 @@ export default function Comingsoon() {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <p className="mb-0 text-white-50">© {new Date().getFullYear()} Smilecare. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-white-50">© {new Date().getFullYear()} Tu Es Belle. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                             </div>
                         </div>
                     </div>

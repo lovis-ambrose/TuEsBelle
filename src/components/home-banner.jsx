@@ -32,8 +32,10 @@ export default function HomeBanner() {
             <div className="row align-items-center mt-5">
                 <div className="col-lg-7 col-md-8 order-md-1 order-2">
                     <div className="title-heading">
-                        <h1 className="heading text-white title-dark fw-bold mb-4 text-capitalize">Give a Helping Hand <br/> for Children</h1>
-                        <p className="para-desc text-white-50">We value every human life placed in our hands and constantly work towards meeting the expectations of our patients.</p>
+                        <h1 className="heading text-white title-dark fw-bold mb-4 text-capitalize">Fearfully and Wonderfully Made</h1>
+                        <p className="para-desc text-white-50">
+                          <i><b>"She is clothed with strength and dignity, and she laughs without fear of the future."</b></i> <span className="text-white">Proverbs 31:25</span>
+                        </p>
                         
                         <div className="mt-4 pt-2">
                             <Link to="#" className="btn btn-primary me-1">Enroll Today</Link>

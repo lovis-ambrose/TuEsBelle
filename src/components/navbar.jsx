@@ -34,20 +34,22 @@ export default function Navbar() {
     <header id="topnav" className={`defaultscroll sticky ${scroll ? 'nav-sticky' : ''}`}>
         <div className="container">
         <Link className="logo" to="/">
-            <span className="logo-light-mode">
+            <div className="logo-light-mode">
                 <img 
                 src={logoDark} 
                 className="l-dark" 
                 alt="" 
                 style={{ width: '70px', height: '70px' }} 
                 />
+                <span className='l-dark text-dark pt-3'><h2 style={{ fontSize: window.innerWidth < 576 ? '1.2rem' : '2rem' }}>Tu Es Belle</h2></span>
                 <img 
                 src={logoLight} 
                 className="l-light" 
                 alt="" 
                 style={{ width: '70px', height: '70px' }} 
                 />
-            </span>
+                <span className='l-light text-white pt-3'><h2 style={{ fontSize: window.innerWidth < 576 ? '1.2rem' : '2rem' }}>Tu Es Belle</h2></span>
+            </div>
             <img 
                 src={logoLight} 
                 className="logo-dark-mode" 

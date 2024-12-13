@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 import { FiSearch, FiSettings } from 'react-icons/fi'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { footerSocial } from '../data/data'
-import logoDark from '../assets/images/logo-dark.png'
-import logoLight from '../assets/images/logo-white.png'
-import contact from '../assets/images/contact.png'
+import logoLight from '../assets/images/logo192.png'
 
 export default function NavModal({navDark}) {
     let [search, setSearch] = useState(false)
@@ -68,16 +66,15 @@ export default function NavModal({navDark}) {
         <Offcanvas show={open} onHide={()=>setOpen(!open)} placement='end'>
             <Offcanvas.Header closeButton className="p-4 border-bottom">
                 <Offcanvas.Title>
-                    <h5 id="offcanvasRightLabel" className="mb-0">
-                        <img src={logoDark} className="light-version" alt=""/>
-                        <img src={logoLight} className="dark-version" alt=""/>
-                    </h5>
+                    <h2 id="offcanvasRightLabel" className="mb-0">
+                        <img src={logoLight} width={'70px'} alt="" />
+                        Tu Es Belle
+                    </h2>
                 </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body className="p-4">
                 <div className="row">
                     <div className="col-12">
-                        <img src={contact} className="img-fluid" alt=""/>
                         <form>
                             <div className="my-3 text-center">
                                 <h6 className="text-uppercase mb-0 fw-semibold">Sign In</h6>

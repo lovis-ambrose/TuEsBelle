@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import bg from '../assets/images/hero/auth.jpg'
-import logo from '../assets/images/logo-dark.png'
+import bg from '../assets/images/hero/2.jpg'
+import logo from '../assets/images/logo192.png'
 
 
 export default function Signup() {
@@ -15,8 +15,8 @@ export default function Signup() {
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="p-4 bg-white rounded shadow-md mx-auto w-100" style={{maxWidth:'400px'}}>
                             <form>
-                                <Link to="/"><img src={logo} className="mb-4 d-block mx-auto" alt=""/></Link>
-                                <h6 className="mb-3 text-uppercase fw-semibold">Register your account</h6>
+                                <Link to="/"><img src={logo} width={'70px'} className="mb-4 d-block mx-auto" alt=""/></Link>
+                                <h6 className="mb-3 text-uppercase text-center fw-semibold">Register your account</h6>
                             
                                 <div className="mb-3">
                                     <label className="form-label fw-semibold">Your Name</label>

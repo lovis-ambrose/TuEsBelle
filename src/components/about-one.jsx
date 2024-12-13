@@ -38,8 +38,7 @@ export default function AboutOne() {
 
                     <p className="text-muted mb-0">
                         From my favorite quote to summarize it all, <b><i>“To inspire people don’t show them your super
-                        powers, show them theirs”</i></b> by <b>Alexandra den Heijer</b>
-                        And just like that The HOLY SPIRIT brought the vision.
+                        powers, show them theirs”</i></b> by <b>Alexandra den Heijer.</b> And just like that The HOLY SPIRIT brought the vision.
                     </p>
                 
                     <div className="mt-4">

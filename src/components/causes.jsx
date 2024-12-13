@@ -9,7 +9,9 @@ export default function Causes() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="title mb-3">Popular Causes</h4>
-                        <p className="text-muted para-desc mx-auto mb-4">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="text-muted para-desc mx-auto mb-4">
+                            The Tu Es Belle foundation is a non profit organisation that strives to improve the society by reminding women of their worth.
+                        </p>
                     </div>
                 </div>
             </div>

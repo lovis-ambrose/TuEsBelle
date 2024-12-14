@@ -245,18 +245,18 @@ export const footerCompany = [
         title:'Team',
         link:'/team'
     },
-    {
-        title:'Pricing',
-        link:'/pricing'
-    },
+    // {
+    //     title:'Pricing',
+    //     link:'/pricing'
+    // },
     {
         title:'Blog',
         link:'/blogs'
     },
-    {
-        title:'Login',
-        link:'/login'
-    },
+    // {
+    //     title:'Login',
+    //     link:'/login'
+    // },
 ]
 
 export const footerLink = [

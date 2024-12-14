@@ -5,7 +5,7 @@ import logoDark from '../assets/images/logo192.png'
 import logoLight from '../assets/images/logo192White.png'
 
 
-import NavModal from './nav-modal'
+// import NavModal from './nav-modal'
 
 export default function Navbar() {
     let[manu, setManu] = useState();

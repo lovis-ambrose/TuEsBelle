@@ -1,12 +1,12 @@
 import React from 'react'
-import { featureData } from '../data/data'
+import { servicesData } from '../data/data'
 import { Link } from 'react-router-dom'
 
 export default function Feature() {
   return (
     <>
         <div className="row">
-            {featureData.slice(0,3).map((item,index)=>{
+            {servicesData.slice(0,3).map((item,index)=>{
                 let Icon = item.icon
                 return(
                     <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2" key={index}>

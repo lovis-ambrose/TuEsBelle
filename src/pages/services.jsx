@@ -20,7 +20,7 @@ export default function Services() {
             <div className="row mt-5 justify-content-center">
                 <div className="col-12">
                     <div className="title-heading text-center">
-                        <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Services / Features</h5>
+                        <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">What we do</h5>
                     </div>
                 </div>
             </div>

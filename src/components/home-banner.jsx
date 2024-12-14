@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 
-import bg1 from '../assets/images/hero/1.jpg'
+import bg1 from '../assets/images/hero/special.jpg'
 import bg2 from '../assets/images/hero/2.jpg'
 import bg3 from '../assets/images/hero/3.jpg'
 import VideoOne from "./video-one";

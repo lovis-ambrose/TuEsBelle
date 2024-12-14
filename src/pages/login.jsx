@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import bg from '../assets/images/hero/2.jpg'
+import bg from '../assets/images/hero/special.jpg'
 import logo from '../assets/images/logo192.png'
 
 export default function Login() {

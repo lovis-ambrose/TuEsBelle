@@ -22,7 +22,7 @@ export default function AboutOne() {
 
                             <div className="position-absolute top-50 start-50 translate-middle">
                                 <div className="counter-box text-center">
-                                    <h2 className="fw-bold mb-0 text-white"><CountUp end={100}/>M<sup>+</sup></h2>
+                                    <h2 className="fw-bold mb-0 text-white"><CountUp end={1000}/><sup>+</sup></h2>
                                     <p className="counter-head small fw-semibold text-white mb-0">people inspired, empowering women, transforming society.</p>
                                 </div>
                             </div>

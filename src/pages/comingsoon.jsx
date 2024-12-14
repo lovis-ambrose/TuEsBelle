@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 
-import logo from '../assets/images/logo-icon-80-white.png'
+import logo from '../assets/images/logo192.png'
 import bg from '../assets/images/hero/special.jpg'
 
 export default function Comingsoon() {
@@ -32,11 +32,13 @@ export default function Comingsoon() {
                     <div className="col-12 p-0">
                         <div className="d-flex flex-column min-vh-100 justify-content-center p-md-5">
                             <div className="text-center">
-                                <Link to="/"><img src={logo} alt=""/></Link>
+                                <Link to="/"><img src={logo} style={{width: '100px'}} alt=""/></Link>
                             </div>
                             <div className="title-heading text-center my-auto">
                                 <h2 className="title-dark text-white text-uppercase mt-2 mb-4 fw-semibold">Comingsoon</h2>
-                                <p className="text-white para-desc para-dark mx-auto">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                                <p className="text-white para-desc para-dark mx-auto">
+                                    The Tu Es Belle foundation is a non profit organisation that strives to improve the society by reminding women of their worth.
+                                </p>
                             
                                 <div id="countdown">
                                     <ul className="count-down list-unstyled">
@@ -49,7 +51,7 @@ export default function Comingsoon() {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <p className="mb-0 text-white-50">© {new Date().getFullYear()} Tu Es Belle. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-white-50">© {new Date().getFullYear()} Tu Es Belle. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="#" target="_blank" className="text-reset">Lovis</Link>.</p>
                             </div>
                         </div>
                     </div>

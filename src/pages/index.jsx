@@ -46,8 +46,8 @@ export default function Index() {
             <div className="row justify-content-center">
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
-                        <h4 className="title mb-3">We Have Funded <span className="text-primary">150 Charity Projects</span> for <br/> 10M People Around The World.</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <h4 className="title mb-3">Empowering Change: <span className="text-primary">Transformative Services </span> <br /> for Women and Girls</h4>
+                        <p className="text-muted para-desc mx-auto mb-0">Tu Es Belle Foundation empowers women and girls through education, skills development, and support services, fostering confidence, independence, and social justice to create a world where women thrive with dignity and purpose.</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ export default function Index() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="title mb-3">Our Volunteers</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="text-muted para-desc mx-auto mb-0">Volunteers at Tu Es Belle Foundation play a vital role in empowering women and girls, supporting education, providing mentorship, and contributing to social justice initiatives. Join us in making a lasting impact.</p>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ export default function Index() {
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="title mb-3">Blog Or News</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle foundation is a non profit organisation that strives to improve the society by reminding women of their worth.</p>
                     </div>
                 </div>
             </div>

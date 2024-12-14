@@ -9,6 +9,7 @@ import ScrollToTop from '../components/scroll-to-top'
 
 import hero from '../assets/images/hero/pages.jpg'
 import AboutOne from '../components/about-one'
+import AboutTwo from '../components/about-two'
 
 export default function Aboutus() {
   return (
@@ -48,6 +49,22 @@ export default function Aboutus() {
     <section className="section">
         <div className="container">
             <AboutOne/>
+        </div>
+    </section>
+
+    <section className="section">
+        <div className="container">
+        <div className="row justify-content-center">
+                <div className="col-12">
+                    <div className="section-title text-center mb-4 pb-2">
+                        <h4 className="title mb-3">Our Minds</h4>
+                        <p className="text-muted para-desc mx-auto mb-0">
+                            At Tu Es Belle Foundation, we are dedicated to empowering women and girls through education, skill-building, and mentorship. Rooted in faith and driven by purpose, we inspire confidence, creativity, and resilience to build a more just and equitable society.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <AboutTwo /> 
         </div>
     </section>
 

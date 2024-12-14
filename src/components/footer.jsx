@@ -16,7 +16,9 @@ export default function Footer() {
                     <div className="py-5">
                         <div className="row">
                             <div className="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
-                                <p>The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                                <p>
+                                  Tu Es Belle Foundation empowers women and girls through education, skills development, and support services, fostering confidence, independence, and social justice to create a world where women thrive with dignity and purpose.
+                                </p>
                                 <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                                     {footerSocial.map((item,index)=>{
                                         let Icon = item.icon
@@ -51,7 +53,7 @@ export default function Footer() {
 
                             <div className="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <h6 className="footer-head text-uppercase small">Newsletter</h6>
-                                <p className="mt-4">Sign up and receive the latest tips via email.</p>
+                                <p className="mt-4">Sign up to receive the latest tips via email.</p>
                                 <form>
                                     <div className="row">
                                         <div className="col-lg-12">

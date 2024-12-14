@@ -7,7 +7,9 @@ export default function MakeDonation() {
     <div className="p-4 rounded shadow position-relative bg-white">
         <div className="section-title">
             <h4 className="title mb-3">Make a Donation</h4>
-            <p className="mb-0 text-muted">Your $40.00 monthly donation can give 12 people clean water every year. 100% funds water projects.</p>
+            <p className="mb-0 text-muted">
+                Donate today—empower women, advance social justice!
+            </p>
         </div>
 
         <form className="mt-4">
@@ -37,12 +39,13 @@ export default function MakeDonation() {
                     <div className="mb-3">
                         <label className="form-label fw-semibold">I Want to Donate for</label>
                         <select className="form-select form-control" name="item_name">
-                            <option value="Donate For Food">Donate For Food</option>
-                            <option value="Food For Orphan">Food For Orphan</option>
+                            <option value="Donate For Food">select reason</option>
+                            <option value="Donate For Food">Rape victims</option>
+                            <option value="Food For Orphan">Food For Orphans</option>
                             <option value="Home For Homeless">Home For Homeless</option>
-                            <option value="Holyday Gifts In Kind">Holyday Gifts In Kind</option>
-                            <option value="For clean Water in Africa">For clean Water in Africa</option>
-                            <option value="Health and Rights">Health and Rights</option>
+                            <option value="Holyday Gifts In Kind">School drops</option>
+                            <option value="For clean Water in Africa">Oppressed women</option>
+                            <option value="Health and Rights">Single mums/Teen mums</option>
                         </select>
                     </div>
                 </div>

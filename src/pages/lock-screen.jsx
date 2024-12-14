@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import bg from '../assets/images/hero/auth.jpg'
-import user from '../assets/images/team/1.jpg'
+import bg from '../assets/images/hero/special.jpg'
+import user from '../assets/images/logo192.png'
 
 export default function LockScreen() {
   return (

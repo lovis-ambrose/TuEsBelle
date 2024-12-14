@@ -138,7 +138,7 @@ export const blogData = [
     {
         id:1,
         image:blog1,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'Utilizing mobile technology in the field',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'13th Sept 2024'
@@ -146,7 +146,7 @@ export const blogData = [
     {
         id:2,
         image:blog2,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'Success Story: Businessman in Harlem',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'29th Nov 2024'
@@ -154,7 +154,7 @@ export const blogData = [
     {
         id:3,
         image:blog3,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'How Does Marketing Automation Help Lead',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'29th Desc 2024'
@@ -162,7 +162,7 @@ export const blogData = [
     {
         id:4,
         image:blog4,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:"Working from home? Let's get started.",
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'13th March 2024'
@@ -170,7 +170,7 @@ export const blogData = [
     {
         id:5,
         image:blog5,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'The Ultimate Success Formula - How?',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'5th May 2024'
@@ -178,7 +178,7 @@ export const blogData = [
     {
         id:6,
         image:blog6,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'The Major Differences Between SEO & Local SEO',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'19th June 2024'
@@ -186,7 +186,7 @@ export const blogData = [
     {
         id:7,
         image:blog7,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'Building intelligent transportation systems',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'20th June 2024'
@@ -194,7 +194,7 @@ export const blogData = [
     {
         id:8,
         image:blog8,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'12 Questions to Ask Before Hiring a SEO Agency',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'31st Aug 2024'
@@ -202,7 +202,7 @@ export const blogData = [
     {
         id:9,
         image:blog9,
-        tag:'Smilecare',
+        tag:'Tu Es Belle',
         title:'How a Social Works Audit Can Help You',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'1st Sept 2024'
@@ -355,33 +355,48 @@ export const teamData = [
 export const servicesData = [
     {
         icon:FiAperture,
-        title:'Breakfast Programme',
-        desc:"The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme."
-    },
-    {
-        icon:FiSend,
-        title:'Food Assistance',
-        desc:"The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme."
+        title:'Personal Empowerment',
+        desc:"We enhance self-confidence and self-esteem through workshops, leadership programs, and group discussions, helping women recognize their worth and embrace their potential."
     },
     {
         icon:FiUser,
-        title:'Social Works',
-        desc:"The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme."
+        title:'Educational Empowerment',
+        desc:"We support school dropouts and disadvantaged women with literacy programs, computer training, and business courses to help them secure brighter futures."
     },
     {
         icon:FiStar,
-        title:'Digital Education',
-        desc:"The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme."
+        title:'Financial Empowerment',
+        desc:"We train women in practical skills like crafts, baking, etiquette, soap-making, and makeup artistry, enabling them to start businesses and achieve financial independence."
     },
     {
         icon:FiBookmark,
-        title:'Scholarship Programme',
-        desc:"The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme."
+        title:'Moral Empowerment',
+        desc:"We promote ethics and values through workshops that address societal challenges, fostering integrity and positive change in communities."
     },
     {
         icon:FiMessageCircle,
-        title:'School Programme',
-        desc:"The Smilecare is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme."
+        title:'Social Justice Advocacy',
+        desc:"We advocate for women’s rights, supporting victims of violence, single mothers, and oppressed women through outreach programs and resources."
+    },
+    {
+        icon:FiMessageCircle,
+        title:'Income-Generating Products',
+        desc:"We produce and sell items like hair oil, lip gloss, scented candles, and bags, providing women with skills and income while sustaining the foundation."
+    },
+    {
+        icon:FiSend,
+        title:'Physiological Empowerment',
+        desc:"We provide counseling and therapy to victims of abuse, offering safe spaces for healing and emotional recovery through individual and group sessions."
+    },
+    {
+        icon:FiSend,
+        title:'Creative Arts Empowerment',
+        desc:"We nurture creativity by teaching music, art, knitting, and crafts, helping women express themselves while developing marketable skills."
+    },
+    {
+        icon:FiSend,
+        title:'Community Building',
+        desc:"We connect women with mentors and foster supportive communities, encouraging peer learning, shared growth, and long-term empowerment."
     },
 ]
 
@@ -393,7 +408,7 @@ export const faqData = [
     },
     {
         id:2,
-        title:'Do I need a designer to use Smilecare ?',
+        title:'Do I need a designer to use Tu Es Belle ?',
         desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {

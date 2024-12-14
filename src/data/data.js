@@ -212,23 +212,23 @@ export const blogData = [
 export const footerSocial = [
     {
         icon:FiDribbble,
-        link:'https://dribbble.com/shreethemes'
+        link:'#'
     },
     {
         icon:FiLinkedin,
-        link:'http://linkedin.com/company/shreethemes'
+        link:'#'
     },
     {
         icon:FiFacebook,
-        link:'https://www.facebook.com/shreethemes'
+        link:'#'
     },
     {
         icon:FiInstagram,
-        link:'https://www.instagram.com/shreethemes'
+        link:'#'
     },
     {
         icon:FiTwitter,
-        link:'https://twitter.com/shreethemes'
+        link:'#'
     },
 ]
 

@@ -57,7 +57,7 @@ export default function Aboutus() {
         <div className="row justify-content-center">
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
-                        <h4 className="title mb-3">Our Minds</h4>
+                        <h4 className="title mb-3">What We Do</h4>
                         <p className="text-muted para-desc mx-auto mb-0">
                             At Tu Es Belle Foundation, we are dedicated to empowering women and girls through education, skill-building, and mentorship. Rooted in faith and driven by purpose, we inspire confidence, creativity, and resilience to build a more just and equitable society.
                         </p>
@@ -75,8 +75,8 @@ export default function Aboutus() {
             <div className="row justify-content-center">
                 <div className="col-12">
                     <div className="section-title text-center mb-4 pb-2">
-                        <h4 className="title mb-3">Our Minds</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
+                        <h4 className="title mb-3">Board Of Directors</h4>
+                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle foundation is a non profit organisation that strives to improve the society by reminding women of their worth.</p>
                     </div>
                 </div>
             </div>

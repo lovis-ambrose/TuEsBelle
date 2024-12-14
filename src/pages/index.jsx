@@ -10,7 +10,6 @@ import HomeBanner from '../components/home-banner'
 import MakeDonation from '../components/make-donation'
 import Causes from '../components/causes'
 import Cta from '../components/cta'
-import Team from '../components/team'
 
 export default function Index() {
   return (
@@ -53,19 +52,6 @@ export default function Index() {
             </div>
 
             <Feature/>
-        </div>
-
-        <div className="container mt-100 mt-60">
-            <div className="row justify-content-center">
-                <div className="col-12">
-                    <div className="section-title text-center mb-4 pb-2">
-                        <h4 className="title mb-3">Our Volunteers</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">Volunteers at Tu Es Belle Foundation play a vital role in empowering women and girls, supporting education, providing mentorship, and contributing to social justice initiatives. Join us in making a lasting impact.</p>
-                    </div>
-                </div>
-            </div>
-
-            <Team/>
         </div>
 
         <div className="container mt-100 mt-60">

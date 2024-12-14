@@ -18,7 +18,7 @@ export default function Team() {
             <div className="row mt-5 justify-content-center">
                 <div className="col-12">
                     <div className="title-heading text-center">
-                        <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Our Volunteers</h5>
+                        <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Our Team Members</h5>
                     </div>
                 </div>
             </div>
@@ -46,10 +46,10 @@ export default function Team() {
             <div className="row g-4">
                 {teamData.map((item,index)=>{
                     return(
-                        <div className="col-lg-3 col-md-6 col-12" key={index}>
+                        <div className="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
                             <div className="card team team-primary bg-transparent text-center mb-5">
                                 <div className="card-img team-image d-inline-block mx-auto rounded overflow-hidden">
-                                    <img src={item.image} className="img-fluid" alt=""/>
+                                    <img src={item.image} style={{height: '200px'}} className="img-fluid" alt=""/>
 
                                     <ul className="list-unstyled team-social mb-0">
                                         {item.social.map((el,index)=>{

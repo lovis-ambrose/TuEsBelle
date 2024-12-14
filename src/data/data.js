@@ -302,52 +302,96 @@ export const counterData = [
 ]
 
 export const teamData = [
+    // board
     {
         image:team1,
-        name:'Jack John',
-        position:'Volunteer',
+        name:'Sheeba kakuba',
+        position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team2,
-        name:'Jeremiah Green',
-        position:'Volunteer',
+        name:'Isaac Ddumba',
+        position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team3,
-        name:'Christin Vasquez',
-        position:'Volunteer',
+        name:'Agnes namugere',
+        position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team4,
-        name:'Lillian Boldt',
-        position:'Volunteer',
+        name:'Allan kiyemba',
+        position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team5,
-        name:'Krista John',
-        position:'Volunteer',
+        name:'Harriet kawanguzi',
+        position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team6,
-        name:'Ricky Peters',
-        position:'Volunteer',
+        name:'Paul Yawe Ntwatwa',
+        position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
+    // rest are volunters
     {
         image:team7,
-        name:'Roger Jackson',
-        position:'Volunteer',
+        name:'Sharon Wogi',
+        position:'CFO',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team8,
-        name:'Camille Smith',
-        position:'Volunteer',
+        name:'Ddamulila Florence',
+        position:'COO',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Evelyn love Namulinda',
+        position:'Fundraising and development',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Mr Morris Kakooza',
+        position:'Programs and Services',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Pusha',
+        position:'Marketing and communications',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Nalumaga Agnes',
+        position:'Human Resource and administration',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Rachel',
+        position:'Volunteer cordinator',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Mr isaac Ddumba',
+        position:'Coperate partnerships',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+    {
+        image:team8,
+        name:'Mellan mugayo',
+        position:'Charity navigator',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
 ]

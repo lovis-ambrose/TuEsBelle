@@ -5,12 +5,12 @@ export default function Team() {
   return (
     <>
     <div className="row align-items-center">
-        {teamData.slice(0,4).map((item,index)=>{
+        {teamData.slice(0,6).map((item,index)=>{
             return(
-                <div className="col-lg-3 col-md-6 col-12 mt-4 pt-2" key={index}>
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mt-4 pt-2" key={index}>
                     <div className="card team team-primary bg-transparent text-center mb-5">
                         <div className="card-img team-image d-inline-block mx-auto rounded overflow-hidden">
-                            <img src={item.image} className="img-fluid" alt=""/>
+                            <img src={item.image} style={{height: '200px'}} className="img-fluid" alt=""/>
 
                             <ul className="list-unstyled team-social mb-0">
                                 {item.social.map((el,index)=>{

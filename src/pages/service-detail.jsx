@@ -7,7 +7,7 @@ import Footer from '../components/footer'
 import ScrollToTop from '../components/scroll-to-top'
 
 import hero from '../assets/images/hero/pages.jpg'
-import image from '../assets/images/blog/8.jpg'
+import image from '../assets/images/hero/1.jpg'
 
 import { servicesData } from '../data/data'
 

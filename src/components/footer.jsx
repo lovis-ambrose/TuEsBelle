@@ -112,7 +112,7 @@ export default function Footer() {
             <div className="container text-center">
                 <div className="row justify-content-center">
                     <div className="col-sm-12">
-                        <p className="mb-0">© {new Date().getFullYear()} Tu Es Belle. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="#" target="_blank" className="text-reset">Lovis</Link>.</p>
+                        <p className="mb-0">© {new Date().getFullYear()} Tu Es Belle Foundation. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="#" target="_blank" className="text-reset">Lovis</Link>.</p>
                     </div>
                 </div>
             </div>

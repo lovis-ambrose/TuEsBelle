@@ -46,7 +46,7 @@ export default function Team() {
             <div className="row g-4">
                 {teamData.map((item,index)=>{
                     return(
-                        <div className="col-xxl-2 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
+                        <div className="col-lg-3 col-md-6 col-12" key={index}>
                             <div className="card team team-primary bg-transparent text-center mb-5">
                                 <div className="card-img team-image d-inline-block mx-auto rounded overflow-hidden">
                                     <img src={item.image} style={{height: '200px'}} className="img-fluid" alt=""/>

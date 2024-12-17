@@ -1,13 +1,21 @@
 import { FiAperture, FiBookmark, FiBox, FiCheckCircle, FiCoffee, FiDribbble, FiFacebook, FiInstagram, FiLinkedin, FiMessageCircle, FiSend, FiStar, FiTwitter, FiUser, FiUserCheck } from "react-icons/fi";
 
-import team1 from '../assets/images/team/1.jpeg'
-import team2 from '../assets/images/team/2.jpeg'
-import team3 from '../assets/images/team/3.jpeg'
-import team4 from '../assets/images/team/4.jpeg'
-import team5 from '../assets/images/team/5.jpeg'
-import team6 from '../assets/images/team/6.jpeg'
-import team7 from '../assets/images/team/7.jpeg'
-import team8 from '../assets/images/team/8.jpeg'
+import team1 from '../assets/images/team/Esther.jpeg'
+import team2 from '../assets/images/team/Sheeba.jpeg'
+import team3 from '../assets/images/team/Isaac.jpeg'
+import team4 from '../assets/images/team/Agnes.jpeg'
+import team5 from '../assets/images/team/Allan.jpeg'
+import team6 from '../assets/images/team/5.jpeg'
+import team7 from '../assets/images/team/paul.jpeg'
+import team8 from '../assets/images/team/7.jpeg'
+import team9 from '../assets/images/team/7.jpeg'
+import team10 from '../assets/images/team/7.jpeg'
+import team11 from '../assets/images/team/7.jpeg'
+import team12 from '../assets/images/team/7.jpeg'
+import team13 from '../assets/images/team/7.jpeg'
+import team14 from '../assets/images/team/7.jpeg'
+import team15 from '../assets/images/team/7.jpeg'
+import team16 from '../assets/images/team/7.jpeg'
 
 import blog1 from '../assets/images/blog/1.jpeg'
 import blog2 from '../assets/images/blog/2.jpeg'
@@ -305,92 +313,101 @@ export const teamData = [
     // board
     {
         image:team1,
-        name:'Sheeba kakuba',
-        position:'Board Member',
+        name:'Miss. Namukwaya Esther Gift',
+        position:'Founder',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team2,
-        name:'Isaac Ddumba',
+        name:'Mrs. Sheeba Kakuba',
         position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team3,
-        name:'Agnes namugere',
+        name:'Mr. Isaac Ddumba',
         position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team4,
-        name:'Allan kiyemba',
+        name:'Miss. Agnes Namugere',
         position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team5,
-        name:'Harriet kawanguzi',
+        name:'Miss. Allan Kiyemba',
         position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
         image:team6,
-        name:'Paul Yawe Ntwatwa',
+        name:'Miss. Harriet Kawanguzi',
         position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
-    // rest are volunters
     {
         image:team7,
-        name:'Sharon Wogi',
+        name:'Mr. Paul Yawe Ntwatwa',
+        position:'Board Member',
+        social:[FiFacebook,FiInstagram,FiTwitter]
+    },
+
+    // CFO && COO
+    {
+        image:team8,
+        name:'Mrs. Sharon Wogi',
         position:'CFO',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
-        name:'Ddamulila Florence',
+        image:team9,
+        name:'Mr. Waswa Tom',
         position:'COO',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
+
+    // Departments
     {
-        image:team8,
-        name:'Evelyn love Namulinda',
+        image:team10,
+        name:'Miss. Evelyn Love Namulinda',
         position:'Fundraising and development',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
+        image:team11,
         name:'Mr Morris Kakooza',
         position:'Programs and Services',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
-        name:'Pusha',
+        image:team12,
+        name:'Miss. Pusha',
         position:'Marketing and communications',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
-        name:'Nalumaga Agnes',
+        image:team13,
+        name:'Miss. Nalumaga Agnes',
         position:'Human Resource and administration',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
-        name:'Rachel',
+        image:team14,
+        name:'Miss. Rachel',
         position:'Volunteer cordinator',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
-        name:'Mr isaac Ddumba',
+        image:team15,
+        name:'Mr Isaac Ddumba',
         position:'Coperate partnerships',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
     {
-        image:team8,
-        name:'Mellan mugayo',
+        image:team16,
+        name:'Miss. Mellan Mugayo',
         position:'Charity navigator',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },

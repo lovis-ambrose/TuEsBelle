@@ -1,4 +1,4 @@
-import { FiAperture, FiBookmark, FiBox, FiCheckCircle, FiCoffee, FiDribbble, FiFacebook, FiInstagram, FiLinkedin, FiMessageCircle, FiSend, FiStar, FiTwitter, FiUser, FiUserCheck } from "react-icons/fi";
+import { FiAlertCircle, FiAperture, FiBook, FiBookmark, FiBox, FiBriefcase, FiCheckCircle, FiCoffee, FiDribbble, FiFacebook, FiHeart, FiInstagram, FiLinkedin, FiMessageCircle, FiPenTool, FiSend, FiShoppingBag, FiSmile, FiStar, FiSun, FiTwitter, FiUser, FiUserCheck, FiUsers } from "react-icons/fi";
 
 import team1 from '../assets/images/team/Esther.jpeg'
 import team2 from '../assets/images/team/Sheeba.jpeg'
@@ -415,47 +415,47 @@ export const teamData = [
 
 export const servicesData = [
     {
-        icon:FiAperture,
+        icon:FiSun,
         title:'Personal Empowerment',
         desc:"We enhance self-confidence and self-esteem through workshops, leadership programs, and group discussions, helping women recognize their worth and embrace their potential."
     },
     {
-        icon:FiUser,
+        icon:FiBook,
         title:'Educational Empowerment',
         desc:"We support school dropouts and disadvantaged women with literacy programs, computer training, and business courses to help them secure brighter futures."
     },
     {
-        icon:FiStar,
+        icon:FiBriefcase,
         title:'Financial Empowerment',
         desc:"We train women in practical skills like crafts, baking, etiquette, soap-making, and makeup artistry, enabling them to start businesses and achieve financial independence."
     },
     {
-        icon:FiBookmark,
+        icon:FiHeart,
         title:'Moral Empowerment',
         desc:"We promote ethics and values through workshops that address societal challenges, fostering integrity and positive change in communities."
     },
     {
-        icon:FiMessageCircle,
+        icon:FiAlertCircle,
         title:'Social Justice Advocacy',
         desc:"We advocate for women’s rights, supporting victims of violence, single mothers, and oppressed women through outreach programs and resources."
     },
     {
-        icon:FiMessageCircle,
+        icon:FiShoppingBag,
         title:'Income-Generating Products',
         desc:"We produce and sell items like hair oil, lip gloss, scented candles, and bags, providing women with skills and income while sustaining the foundation."
     },
     {
-        icon:FiSend,
+        icon:FiSmile,
         title:'Physiological Empowerment',
         desc:"We provide counseling and therapy to victims of abuse, offering safe spaces for healing and emotional recovery through individual and group sessions."
     },
     {
-        icon:FiSend,
+        icon:FiPenTool,
         title:'Creative Arts Empowerment',
         desc:"We nurture creativity by teaching music, art, knitting, and crafts, helping women express themselves while developing marketable skills."
     },
     {
-        icon:FiSend,
+        icon:FiUsers,
         title:'Community Building',
         desc:"We connect women with mentors and foster supportive communities, encouraging peer learning, shared growth, and long-term empowerment."
     },

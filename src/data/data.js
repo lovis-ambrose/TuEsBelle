@@ -5,14 +5,14 @@ import team2 from '../assets/images/team/Sheeba.jpeg'
 import team3 from '../assets/images/team/Isaac.jpeg'
 import team4 from '../assets/images/team/Agnes.jpeg'
 import team5 from '../assets/images/team/Allan.jpeg'
-import team6 from '../assets/images/team/5.jpeg'
+import team6 from '../assets/images/team/Harriet.jpeg'
 import team7 from '../assets/images/team/paul.jpeg'
-import team8 from '../assets/images/team/7.jpeg'
+import team8 from '../assets/images/team/Sharon_Wogi.jpeg'
 import team9 from '../assets/images/team/7.jpeg'
 import team10 from '../assets/images/team/7.jpeg'
 import team11 from '../assets/images/team/7.jpeg'
-import team12 from '../assets/images/team/7.jpeg'
-import team13 from '../assets/images/team/7.jpeg'
+import team12 from '../assets/images/team/Pusha.jpeg'
+import team13 from '../assets/images/team/nalumagaAgnes.jpeg'
 import team14 from '../assets/images/team/7.jpeg'
 import team15 from '../assets/images/team/7.jpeg'
 import team16 from '../assets/images/team/7.jpeg'
@@ -145,9 +145,9 @@ export const clientData = [
 export const blogData = [
     {
         id:1,
-        image:blog1,
+        image:team1,
         tag:'Tu Es Belle',
-        title:'Utilizing mobile technology in the field',
+        title:'Message From the Founder',
         desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
         date:'13th Sept 2024'
     },
@@ -349,7 +349,7 @@ export const teamData = [
     },
     {
         image:team7,
-        name:'Mr. Paul Yawe Ntwatwa',
+        name:'Mr. Paul Yawe',
         position:'Board Member',
         social:[FiFacebook,FiInstagram,FiTwitter]
     },
@@ -487,23 +487,38 @@ export const faqData = [
 export const recentPost = [
     {
         image:blog1,
-        title:'Consultant Business',
+        title:'Why Educating Women is the Key to a Better Future',
         date:'13th March 2024'
     },
     {
         image:blog2,
-        title:'Grow Your Business',
+        title:'Tu Es Belle: Where Aspiration Meets Action',
         date:'5th May 2024'
     },
     {
         image:blog3,
-        title:'Look On The Glorious Balance',
+        title:'The Power of Education: Building a Stronger Nation Through Women',
+        date:'19th June 2024'
+    },
+    {
+        image:blog3,
+        title:'From Inequality to Inspiration: How Tu Es Belle is Changing Lives',
+        date:'19th June 2024'
+    },
+    {
+        image:blog3,
+        title:'Empowered Women, Empowered Generations: The Vision of Tu Es Belle',
+        date:'19th June 2024'
+    },
+    {
+        image:blog3,
+        title:'Transforming Lives: The Role of Skills Training in Women’s Empowerment',
         date:'19th June 2024'
     },
 ]
 
 export const tagCloud =[
-    'Business','Finance','Marketing','Fashion','Bride','Lifestyle','Travel','Beauty','Video','Audio',
+    '#WomenEmpowerment','#EducationForAll','#EqualityMatters','#BreakingBarriers','#Inspiration','#FemaleLeadership','#CommunityImpact','#FutureOfWomen','#MentalAndSpiritualGrowth','#TuEsBelleFoundation',
 ]
 
 export const tearmsData = [ 

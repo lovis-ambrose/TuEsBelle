@@ -38,7 +38,10 @@ export default function Team() {
                         {item.name}
                     </Link>
                     <h6 className="text-muted mb-0 mt-1 fw-normal">
-                        {item.position}
+                        {item.position} <br />
+                        <div className="mt-4">
+                          <Link to="/blog-detail" className="btn btn-primary">Read More <i className="mdi mdi-arrow-right"></i></Link>
+                        </div>
                     </h6>
                     </div>
                 </div>

@@ -42,7 +42,7 @@ export default function AboutOne() {
                     </p>
                 
                     <div className="mt-4">
-                        <Link to="/aboutus" className="btn btn-primary">Read More <i className="mdi mdi-arrow-right"></i></Link>
+                        <Link to="/blog-detail" className="btn btn-primary">Read More <i className="mdi mdi-arrow-right"></i></Link>
                     </div>
                 </div>
             </div>

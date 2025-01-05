@@ -1,6 +1,6 @@
 import React from 'react'
 
-import video from '../assets/images/video.mp4'
+import video from '../assets/images/video2.mp4'
 
 import '../../node_modules/tiny-slider/dist/tiny-slider.css'
 export default function Cta() {

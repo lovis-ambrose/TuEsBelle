@@ -63,7 +63,7 @@ export default function MakeDonation() {
                 <div className="col-12">
                     <div className="form-check">
                         <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                        <label className="form-check-label" htmlFor="flexCheckDefault">I agree to the <Link to="#" className="text-primary">Terms and Conditions</Link>.</label>
+                        <label className="form-check-label" htmlFor="flexCheckDefault">I agree to the <Link to="/terms" className="text-primary">Terms and Conditions</Link>.</label>
                     </div>
                 </div>                                    
 

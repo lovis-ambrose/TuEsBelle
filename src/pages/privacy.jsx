@@ -161,7 +161,7 @@ export default function Privacy() {
 
                                 <h5 className="card-title mt-3">10. Contact Us</h5>
                                 <p className="text-muted">
-                                    If you have questions, concerns, or requests related to this Privacy Policy, please contact us.
+                                    If you have any questions, concerns, or requests related to this Privacy Policy, please contact us.
                                 </p>
     
                                 <Link to="#" className="btn btn-primary">Print</Link>

@@ -135,7 +135,7 @@ export default function Terms() {
 
                             <h5 className="card-title">10. Contact Us</h5>
                             <p className="text-muted">
-                                10.1. For questions or concerns about these terms and conditions, please contact Us<br />
+                                For any questions or concerns about these terms and conditions, please contact Us<br />
                             </p>
                             
                             <div className="mt-3">

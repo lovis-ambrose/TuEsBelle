@@ -83,7 +83,7 @@ export default function BlogDetail() {
 
                         <div className="card-body">
                             <p className="text-muted">
-                                Miss. Esther is a self published author, humanitarian activist and a health care administrator.
+                                Miss. Esther is a self published author, humanitarian activist, entrepreneur and a health care administrator.
                             </p>
                             <p className="text-muted">
                                 Growing up as a child there was always a thymos for a-lot of things happening that I didn’t have

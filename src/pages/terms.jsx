@@ -2,15 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Navbar from '../components/navbar'
-import Faq from '../components/faq'
 import Footer from '../components/footer'
 import ScrollToTop from '../components/scroll-to-top'
 
 import bg from '../assets/images/hero/pages.jpg'
 
-import { tearmsData } from '../data/data'
 
-import { FiArrowRight } from 'react-icons/fi'
 
 export default function Terms() {
   return (
@@ -52,28 +49,95 @@ export default function Terms() {
                 <div className="col-lg-9">
                     <div className="card bg-light shadow border-0 rounded">
                         <div className="card-body">
-                            <h5 className="card-title">Introduction :</h5>
-                            <p className="text-muted">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text.</p>
+                            <h5 className="card-title">Introduction:</h5>
+                            <p className="text-muted">
+                                Welcome to Tu Es Belle Foundation. By accessing or using our services, programs, or website, you agree to comply with and be bound by the following terms and conditions. Please read them carefully before engaging with us.
+                            </p>
 
-                            <h5 className="card-title">User Agreements :</h5>
-                            <p className="text-muted">The most well-known dummy text is the 'Lorem Ipsum', which is said to have <b className="text-danger">originated</b> in the 16th century. Lorem Ipsum is <b className="text-danger">composed</b> in a pseudo-Latin language which more or less <b className="text-danger">corresponds</b> to 'proper' Latin. It contains a series of real Latin words. This ancient dummy text is also <b className="text-danger">incomprehensible</b>, but it imitates the rhythm of most European languages in Latin script. The <b className="text-danger">advantage</b> of its Latin origin and the relative <b className="text-danger">meaninglessness</b> of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's <b className="text-danger">attention</b> from the layout.</p>
-                            <p className="text-muted">There is now an <b className="text-danger">abundance</b> of readable dummy texts. These are usually used when a text is <b className="text-danger">required purely</b> to fill a space. These alternatives to the classic Lorem Ipsum texts are often amusing and tell short, funny or <b className="text-danger">nonsensical</b> stories.</p>
-                            <p className="text-muted">It seems that only <b className="text-danger">fragments</b> of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text.</p>
+                            <h5 className="card-title">1. General</h5>
+                            <p className="text-muted">
+                                1.1. These terms apply to all visitors, users, and participants of Tu Es Belle Foundation’s services and activities.
+                            </p>
+                            <p className="text-muted">
+                                1.2. The foundation reserves the right to modify these terms at any time. Changes will be posted on our website, and continued use of our services constitutes acceptance of the updated terms.
+                            </p>
                             
-                            <h5 className="card-title">Restrictions :</h5>
-                            <p className="text-muted">You are specifically restricted from all of the following :</p>
-                            <ul className="list-unstyled text-muted">
-                                {tearmsData.map((item,index)=>{
-                                    return(
-                                        <li className="mt-2" key={index}><FiArrowRight className="fea icon-sm me-2"/>{item}</li>
-                                    )
-                                })}
-                            </ul>
+                            <h5 className="card-title">2. Use of Services</h5>
+                            <p className="text-muted">
+                                2.1. Participation in our programs is voluntary and subject to eligibility criteria.
+                            </p>
+                            <p className="text-muted">
+                                2.2. Any misuse of the foundation’s resources, facilities, or services may result in termination of participation.
+                            </p>
+                            <p className="text-muted">
+                                2.3. Content shared during programs or events is for personal development only and should not be reproduced or distributed without permission.
+                            </p>
+                        
 
-                            <h5 className="card-title">Users Question & Answer :</h5>
+                            <h5 className="card-title">3. Products and Donations</h5>
+                            <p className="text-muted">
+                                3.1. All proceeds from products sold by Tu Es Belle Foundation directly support our empowerment programs.
+                            </p>
+                            <p className="text-muted">
+                                3.2. Donations made to the foundation are non-refundable unless explicitly stated otherwise.
+                            </p>
+                            <p className="text-muted">
+                                3.3. The foundation is not responsible for third-party product delivery issues if purchased through external platforms.
+                            </p>
+
+                            <h5 className="card-title">4. Intellectual Property</h5>
+                            <p className="text-muted">
+                                4.1. All content, including logos, designs, training materials, and media, is the property of Tu Es Belle Foundation and protected by copyright laws.
+                            </p>
+                            <p className="text-muted">
+                                4.2. Unauthorized reproduction, distribution, or modification of the foundation’s content is prohibited.
+                            </p>
+
+                            <h5 className="card-title">5. Privacy Policy</h5>
+                            <p className="text-muted">
+                                5.1. Personal information collected during program registrations or purchases is handled in accordance with our Privacy Policy.
+                            </p>
+                            <p className="text-muted">
+                                5.2. We will not share personal information with third parties without consent, except where required by law.
+                            </p>
+
+                            <h5 className="card-title">6. Code of Conduct</h5>
+                            <p className="text-muted">
+                                6.1. Participants are expected to uphold respectful behavior toward others during events, training, and online interactions.
+                            </p>
+                            <p className="text-muted">
+                                6.2. Harassment, discrimination, or disruptive behavior will not be tolerated and may result in removal from programs or events.
+                            </p>
+
+                            <h5 className="card-title">7. Limitation of Liability</h5>
+                            <p className="text-muted">
+                                7.1. The foundation is not liable for personal losses, injuries, or damages incurred during participation in programs, events, or use of products.
+                            </p>
+                            <p className="text-muted">
+                                7.2. Participants are responsible for ensuring their physical and mental well-being while engaging in activities organized by the foundation.
+                            </p>
+
+                            <h5 className="card-title">8. Termination</h5>
+                            <p className="text-muted">
+                                8.1. Tu Es Belle Foundation reserves the right to terminate access to its services, programs, or events for violations of these terms and conditions.
+                            </p>
+                            <p className="text-muted">
+                                8.2. Upon termination, users are still bound by the applicable provisions of these terms, including intellectual property rights and limitations of liability.
+                            </p>
+
+                            <h5 className="card-title">9. Governing Law</h5>
+                            <p className="text-muted">
+                                9.1. These terms and conditions are governed by and construed in accordance with the laws of Uganda.
+                            </p>
+                            <p className="text-muted">
+                                9.2. Any disputes arising under these terms will be subject to the exclusive jurisdiction of the courts in Uganda.
+                            </p>
+
+                            <h5 className="card-title">10. Contact Us</h5>
+                            <p className="text-muted">
+                                10.1. For questions or concerns about these terms and conditions, please contact Us<br />
+                            </p>
                             
-                            <Faq/>
-
                             <div className="mt-3">
                                 <Link to="#" className="btn btn-primary mt-2 me-2">Accept</Link>
                                 <Link to="#" className="btn btn-outline-primary mt-2">Decline</Link>

@@ -1,4 +1,4 @@
-import { FiAlertCircle, FiAperture, FiBook, FiBookmark, FiBox, FiBriefcase, FiCheckCircle, FiCoffee, FiDribbble, FiFacebook, FiHeart, FiInstagram, FiLinkedin, FiMessageCircle, FiPenTool, FiSend, FiShoppingBag, FiSmile, FiStar, FiSun, FiTwitter, FiUser, FiUserCheck, FiUsers } from "react-icons/fi";
+import { FiAlertCircle, FiAperture, FiBook, FiBookmark, FiBox, FiBriefcase, FiCheckCircle, FiCoffee, FiFacebook, FiHeart, FiInstagram, FiLinkedin, FiMail, FiMessageCircle, FiPenTool, FiSend, FiShoppingBag, FiSmile, FiStar, FiSun, FiTwitter, FiUser, FiUserCheck, FiUsers } from "react-icons/fi";
 
 import team1 from '../assets/images/team/Esther.jpeg'
 import team2 from '../assets/images/team/Sheeba.jpeg'
@@ -9,13 +9,13 @@ import team6 from '../assets/images/team/Harriet.jpeg'
 import team7 from '../assets/images/team/paul.jpeg'
 import team8 from '../assets/images/team/Sharon_Wogi.jpeg'
 import team9 from '../assets/images/team/7.jpeg'
-import team10 from '../assets/images/team/7.jpeg'
+import team10 from '../assets/images/team/Evelyn.jpeg'
 import team11 from '../assets/images/team/7.jpeg'
 import team12 from '../assets/images/team/Pusha.jpeg'
 import team13 from '../assets/images/team/nalumagaAgnes.jpeg'
 import team14 from '../assets/images/team/7.jpeg'
 import team15 from '../assets/images/team/7.jpeg'
-import team16 from '../assets/images/team/7.jpeg'
+import team16 from '../assets/images/team/Mellan.jpeg'
 
 import blog1 from '../assets/images/blog/1.jpeg'
 import blog2 from '../assets/images/blog/2.jpeg'
@@ -219,8 +219,8 @@ export const blogData = [
 
 export const footerSocial = [
     {
-        icon:FiDribbble,
-        link:'#'
+        icon:FiMail,
+        link:'mailto:tuesbelleus@gmail.com'
     },
     {
         icon:FiLinkedin,

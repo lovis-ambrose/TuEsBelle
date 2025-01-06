@@ -79,7 +79,7 @@ export default function BlogDetail() {
                 <div className="col-lg-8 col-md-7">
                     <div className="card border-0 shadow rounded overflow-hidden">
                         <img src={data?.image ? data?.image : team1} className="img-fluid" alt=""/>
-                        <caption className='text-center'>Image of Miss. Namukwaya Esther Yawe Ntwatwa, Founder of Tu Es Belle Foundation</caption>
+                        <caption className='text-center'>Image of Miss. Namukwaya Esther Yawe Ntwatwa, Founder of Tu Es Belle, Davidic Nation and Robin Paul</caption>
 
                         <div className="card-body">
                             <p className="text-muted">
@@ -89,9 +89,9 @@ export default function BlogDetail() {
                                 Growing up as a child there was always a thymos for a-lot of things happening that I didn’t have
                                 the power to change. And was graced with an empowerment from my father and brother who
                                 strongly believed in the individuality of women and always gave me a voice to speak up. With a
-                                good example of my mother who for one was not only God-fearing but also empowered me in all
-                                aspects. I vividly remember her getting involved in all of activities. Giving away the little we also
-                                heard while echoing the words "anyone can make a difference in anyone’s life";
+                                good example of my mother who for one was not only god fearing but also empowered in all
+                                aspects. I vividly remember her getting involved in all church and charity activities. Giving away
+                                the little we also had while echoing the words ;” anyone can make a difference in anyone’s life”.
                             </p>
 
                             <p className="text-muted">
@@ -114,7 +114,7 @@ export default function BlogDetail() {
                             </p>
 
                             <p className="text-muted">
-                                Skills and strong sense of identity and self worthy are put on hold because of that. Which is why
+                                Skills and strong sense of identity and self worthy are put on hold because of that, Which is why
                                 Tu Es Belle is here to create aspiration by fighting inequality, equipping women with skills not only financial, but mentally, spiritually
                                 and emotionally.
                             </p>

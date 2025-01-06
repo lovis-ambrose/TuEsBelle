@@ -464,23 +464,104 @@ export const servicesData = [
 export const faqData = [
     {
         id:1,
-        title:'How does it work ?',
-        desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        category: 'general',
+        title:'What is the mission of Tu Es Belle Foundation?',
+        desc:'To empower women and girls by enhancing their self-worth, providing access to education and resources, and enabling them to make independent decisions for their lives.'
     },
     {
         id:2,
-        title:'Do I need a designer to use Tu Es Belle ?',
-        desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        category: 'general',
+        title:'What is the vision of Tu Es Belle Foundation?',
+        desc:'We envision a world free of poverty, where women are empowered mentally, emotionally, and spiritually to live in safe and sustainable environments.'
     },
     {
         id:3,
-        title:'What do I need to do to start selling ?',
-        desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        category: 'general',
+        title:' Who does Tu Es Belle Foundation aim to support?',
+        desc:'We support rape victims, victims of violence, school dropouts, oppressed women, and single or teen mothers.'
     },
     {
         id:4,
-        title:'What happens when I receive an order ?',
-        desc:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        category: 'general',
+        title:'What does the name "Tu Es Belle" mean?',
+        desc:'"Tu Es Belle" means "You are Beautiful" in French, reflecting the foundation’s mission to remind women of their worth.'
+    },
+    // Education and Empowerment
+    {
+        id:5,
+        category: 'education',
+        title:'Why does Tu Es Belle prioritize education for girls?',
+        desc:' Education is key to breaking generational poverty and empowering women to contribute meaningfully to society.'
+    },
+    {
+        id:6,
+        category: 'education',
+        title:"What skills are taught through the foundation's programs?",
+        desc:'Skills include arts and crafts, business training, computer lessons, baking, knitting, etiquette, and more.'
+    },
+    {
+        id:7,
+        category: 'education',
+        title:'How does the foundation empower women mentally and emotionally?',
+        desc:'Through confidence-building, counseling, and creating safe spaces for women to express themselves and grow.'
+    },
+    {
+        id:8,
+        category: 'education',
+        title:"What is the role of spiritual empowerment in the foundation's mission?",
+        desc:'It helps women find inner strength and purpose by emphasizing faith and moral education.'
+    },
+
+    // Social Impact
+    {
+        id:9,
+        category: 'social',
+        title:'How does Tu Es Belle address social injustice?',
+        desc:'By empowering women to overcome gender-based discrimination, violence, and oppression, fostering a more equitable society.'
+    },
+    {
+        id:10,
+        category: 'social',
+        title:'How does the foundation support victims of abuse?',
+        desc:'Through counseling, therapy, and empowerment programs to rebuild their confidence and independence.'
+    },
+    {
+        id:11,
+        category: 'social',
+        title:'What impact does female empowerment have on communities?',
+        desc:'Empowered women uplift families and communities, fostering social and economic growth.'
+    },
+    {
+        id:12,
+        category: 'social',
+        title:'Why does the foundation focus on single and teen mothers?',
+        desc:'To provide them with skills, education, and emotional support to secure a brighter future for themselves and their children.'
+    },
+
+    // Supporting the Foundation
+    {
+        id:13,
+        category: 'support',
+        title:'What products does the foundation sell to sustain its programs?',
+        desc:'Products include hair oil, lip gloss, scented candles, bags, and other lady essentials.'
+    },
+    {
+        id:14,
+        category: 'support',
+        title:'How can individuals support the foundation’s mission?',
+        desc:'By purchasing products, volunteering, or donating to help fund programs and initiatives.'
+    },
+    {
+        id:15,
+        category: 'support',
+        title:'Can I volunteer with Tu Es Belle Foundation?',
+        desc:'Yes, the foundation welcomes volunteers to contribute their time and skills to empower women and girls.'
+    },
+    {
+        id:16,
+        category: 'support',
+        title:"Where do the proceeds from the foundation's products go?",
+        desc:'All proceeds are used to support empowerment programs, training, and resources for women and girls.'
     },
 ]
 

@@ -47,28 +47,28 @@ export default function Faqs() {
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-7 col-12">
                     <div className="section-title" id="tech">
-                        <h4>Buying Product</h4>
-                    </div>
-
-                    <Faq/>
-
-                    <div className="section-title mt-5" id="general">
                         <h4>General Questions</h4>
                     </div>
 
-                    <Faq/>
+                    <Faq category="general"/>
+
+                    <div className="section-title mt-5" id="general">
+                        <h4>Education and Empowerment</h4>
+                    </div>
+
+                    <Faq category="education"/>
 
                     <div className="section-title mt-5" id="payment">
-                        <h4>Payments Questions</h4>
+                        <h4>Social Impact</h4>
                     </div>
 
-                    <Faq/>
+                    <Faq category="social"/>
 
                     <div className="section-title mt-5" id="support">
-                        <h4>Support Questions</h4>
+                        <h4>Supporting the Foundation</h4>
                     </div>
 
-                    <Faq/>
+                    <Faq category="support"/>
                 </div>
             </div>
         </div>

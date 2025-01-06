@@ -7,8 +7,6 @@ import ScrollToTop from '../components/scroll-to-top'
 
 import hero from '../assets/images/hero/pages.jpg'
 
-import { tearmsData } from '../data/data'
-import { FiArrowRight } from 'react-icons/fi'
 
 export default function Privacy() {
   return (

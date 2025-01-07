@@ -25,12 +25,12 @@ export default function Causes() {
                                     <img src={item.image} className="img-fluid" alt=""/>
                                     <div className="bg-overlay bg-linear-gradient-2"></div>
                                     <div className="position-absolute bottom-0 p-4">
-                                        <Link to="" className="text-white title-dark fw-semibold link-title">Donate Now <i className="mdi mdi-arrow-right"></i></Link>
+                                        <Link to="/donate" className="text-white title-dark fw-semibold link-title">Donate Now <i className="mdi mdi-arrow-right"></i></Link>
                                     </div>
                                 </div>
 
                                 <div className="content p-4">
-                                    <h5><Link to="" className="text-dark link-title">{item.title}</Link></h5>
+                                    <h5><h5 className="text-dark link-title">{item.title}</h5></h5>
                                     <p className="text-muted mb-0">{item.desc}</p>
                                     <div className="progress-box mt-5">
                                         <div className="progress rounded" style={{height: '8px'}}>

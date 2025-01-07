@@ -4,8 +4,6 @@ import Navbar from '../components/navbar'
 
 import hero from '../assets/images/hero/pages.jpg'
 import { servicesData } from '../data/data'
-import Cta from '../components/cta'
-import Team from '../components/team'
 import Footer from '../components/footer'
 import ScrollToTop from '../components/scroll-to-top'
 
@@ -57,31 +55,14 @@ export default function Services() {
                                 </div>
 
                                 <div className="mt-4">
-                                    <Link to="/service-detail" className="h5 text-dark link-title">{item.title}</Link>
+                                    <h5 className="h5 text-dark link-title">{item.title}</h5>
                                     <p className="text-muted mt-3">{item.desc}</p>
-                                    <Link to="/service-detail" className="text-primary">Learn More <i className="mdi mdi-arrow-right align-middle"></i></Link>
                                 </div>
                             </div>
                         </div>
                     )
                 })}
             </div>
-        </div>
-    </section>
-
-    <Cta/>
-
-    <section className="section">
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-12">
-                    <div className="section-title text-center mb-4 pb-2">
-                        <h4 className="title mb-3">Our Minds</h4>
-                        <p className="text-muted para-desc mx-auto mb-0">The Tu Es Belle is a non profit organisation that strives to eliminate hunger by implementing the Mid Day Meal Programme.</p>
-                    </div>
-                </div>
-            </div>
-            <Team/>
         </div>
     </section>
 

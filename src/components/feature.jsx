@@ -1,6 +1,5 @@
 import React from 'react'
 import { servicesData } from '../data/data'
-import { Link } from 'react-router-dom'
 
 export default function Feature() {
   return (
@@ -17,9 +16,8 @@ export default function Feature() {
                             </div>
 
                             <div className="mt-4">
-                                <Link to="/service-detail" className="h5 text-dark link-title">{item.title}</Link>
+                                <h5 className="h5 text-dark link-title">{item.title}</h5>
                                 <p className="text-muted mt-3">{item.desc}</p>
-                                <Link to="/service-detail" className="text-primary">Learn More <i className="mdi mdi-arrow-right align-middle"></i></Link>
                             </div>
                         </div>
                     </div>

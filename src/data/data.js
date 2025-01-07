@@ -27,7 +27,7 @@ import blog7 from '../assets/images/blog/7.jpeg'
 import blog8 from '../assets/images/blog/8.jpeg'
 import blog9 from '../assets/images/blog/9.jpeg'
 
-import causes1 from '../assets/images/cause/1.jpeg'
+import causes1 from '../assets/images/cause/1.png'
 import causes2 from '../assets/images/cause/2.jpeg'
 import causes3 from '../assets/images/cause/3.jpeg'
 import causes4 from '../assets/images/cause/4.jpeg'
@@ -145,6 +145,7 @@ export const clientData = [
 export const blogData = [
     {
         id:1,
+        url:'message-from-founder',
         image:team1,
         tag:'Tu Es Belle',
         title:'Message From the Founder',
@@ -153,6 +154,7 @@ export const blogData = [
     },
     {
         id:2,
+        url:'success-story-businessman-in-harlem',
         image:blog2,
         tag:'Tu Es Belle',
         title:'Success Story: Businessman in Harlem',
@@ -161,6 +163,7 @@ export const blogData = [
     },
     {
         id:3,
+        url:'how-does-marketing-automation-help-lead',
         image:blog3,
         tag:'Tu Es Belle',
         title:'How Does Marketing Automation Help Lead',
@@ -169,6 +172,7 @@ export const blogData = [
     },
     {
         id:4,
+        url:'working-from-home-lets-get-started',
         image:blog4,
         tag:'Tu Es Belle',
         title:"Working from home? Let's get started.",
@@ -177,6 +181,7 @@ export const blogData = [
     },
     {
         id:5,
+        url:'the-ultimate-success-formula-how',
         image:blog5,
         tag:'Tu Es Belle',
         title:'The Ultimate Success Formula - How?',
@@ -185,6 +190,7 @@ export const blogData = [
     },
     {
         id:6,
+        url:'the-major-differences-between-seo-local-seo',
         image:blog6,
         tag:'Tu Es Belle',
         title:'The Major Differences Between SEO & Local SEO',
@@ -193,6 +199,7 @@ export const blogData = [
     },
     {
         id:7,
+        url:'building-intelligent-transportation-systems',
         image:blog7,
         tag:'Tu Es Belle',
         title:'Building intelligent transportation systems',
@@ -201,6 +208,7 @@ export const blogData = [
     },
     {
         id:8,
+        url:'12-questions-to-ask-before-hiring-a-seo-agency',
         image:blog8,
         tag:'Tu Es Belle',
         title:'12 Questions to Ask Before Hiring a SEO Agency',
@@ -209,6 +217,7 @@ export const blogData = [
     },
     {
         id:9,
+        url:'how-a-social-works-audit-can-help-you',
         image:blog9,
         tag:'Tu Es Belle',
         title:'How a Social Works Audit Can Help You',
@@ -609,32 +618,32 @@ export const tearmsData = [
 export const causesData = [
     {
         image:causes1,
-        title:'Child Support',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        title:'Empowering Women and Girls',
+        desc:'We help women discover their self-worth and confidence through education, training, and skill-building.'
     },
     {
         image:causes2,
-        title:'Clean Water',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        title:'Education Opportunities',
+        desc:'We advocate for equal access to education, ensuring every girl has the opportunity to thrive.'
     },
     {
         image:causes3,
-        title:'Help to Mothers',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        title:'Support for Vulnerable Women',
+        desc:'We create safe spaces for single mothers, teen mothers, and school dropouts to rebuild their lives.'
     },
     {
         image:causes4,
-        title:'New School',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        title:'Skill Development Programs',
+        desc:'We offer specialized training in art, music, computer lessons, and etiquette to broaden opportunities.'
     },
     {
         image:causes5,
-        title:'Food for All',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        title:'Sustainable Initiatives',
+        desc:"We produce goods like hair oil, lip gloss, scented candles, and bags to support our foundation's programs."
     },
     {
         image:causes6,
-        title:'Water For All',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        title:'Community Development',
+        desc:'We strive change societal structures to eliminate gender-based discrimination and inequality, creating a brighter future.'
     },
 ]

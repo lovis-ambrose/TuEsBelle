@@ -61,11 +61,11 @@ export default function Blogs() {
                                 </div>
 
                                 <div className="pt-4">
-                                    <Link to={`/blog-detail/${item.id}`} className="text-dark title h5">{item.title}</Link>
+                                    <Link to={`/blog-detail/${item.id}/${item.url}`} className="text-dark title h5">{item.title}</Link>
 
                                     <p className="text-muted my-2">{item.desc}</p>
 
-                                    <Link to={`/blog-detail/${item.id}`} className="text-dark read-more">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                                    <Link to={`/blog-detail/${item.id}/${item.url}`} className="text-dark read-more">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
                                 </div>
                             </div>
                         </div>

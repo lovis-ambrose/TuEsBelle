@@ -39,7 +39,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blog-sidebar" element={<BlogSidebar />} />
         <Route path="/blog-detail" element={<BlogDetail />} />
-        <Route path="/blog-detail/:id" element={<BlogDetail />} />
+        <Route path="/blog-detail/:id/:url" element={<BlogDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/reset-password" element={<ResetPassword />} />

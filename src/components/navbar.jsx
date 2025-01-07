@@ -89,14 +89,15 @@ export default function Navbar() {
                             <li className={manu === '/testimonial' ? 'active' : ''}><Link to="/testimonial" className="sub-menu-item">Testimonial</Link></li>
 
                             <li className={manu === '/faqs' ? 'active' : ''}><Link to="/faqs" className="sub-menu-item">FAQs</Link></li>
+                            <li className={manu === '/blogs' ? 'active' : ''}><Link to="/blogs" className="sub-menu-item">Blog</Link></li>
 
-                            <li className={`has-submenu parent-menu-item ${['/blog-item', '/blogs','/blog-sidebar', '/blog-detail'].includes(manu) ? 'active' : ''}`}><Link to="#" onClick={()=>setManu(manu === '/blog-item' ? '' : '/blog-item')}> Blog </Link><span className="submenu-arrow"></span>
+                            {/* <li className={`has-submenu parent-menu-item ${['/blog-item', '/blogs','/blog-sidebar', '/blog-detail'].includes(manu) ? 'active' : ''}`}><Link to="#" onClick={()=>setManu(manu === '/blog-item' ? '' : '/blog-item')}> Blog </Link><span className="submenu-arrow"></span>
                                 <ul className={`submenu ${['/blog-item', '/blogs','/blog-sidebar', '/blog-detail'].includes(manu) ? 'open' : ''}`}>
                                     <li className={manu === '/blogs' ? 'active' : ''}><Link to="/blogs" className="sub-menu-item"> Blogs</Link></li>
                                     <li className={manu === '/blog-sidebar' ? 'active' : ''}><Link to="/blog-sidebar" className="sub-menu-item"> Blog Sidebar</Link></li>
                                     <li className={manu === '/blog-detail' ? 'active' : ''}><Link to="/blog-detail" className="sub-menu-item"> Blog Detail</Link></li>
                                 </ul> 
-                            </li>
+                            </li> */}
 
                             {/* <li className={`has-submenu parent-menu-item ${['/auth-item','/login','/signup','/reset-password','/lock-screen'].includes(manu) ? 'active' : ''}`}><Link to="#" onClick={()=>setManu(manu === '/auth-item' ? '' : '/auth-item')}> Auth Pages </Link><span className="submenu-arrow"></span>
                                 <ul className={`submenu ${['/auth-item','/login','/signup','/reset-password','/lock-screen'].includes(manu) ? 'open' : ''}`}>

@@ -16,22 +16,22 @@ export default function MakeDonation() {
             <div className="row">
                 <div className="col-12">
                     <div className="mb-3">
-                        <label className="form-label fw-semibold" htmlFor="name">Your Name : </label>
-                        <input name="name" id="name" type="text" className="form-control" placeholder="Your Name :"/>
+                        <label className="form-label fw-semibold" htmlFor="name">Your Name <span className="text-danger">*</span> </label>
+                        <input name="name" id="name" type="text" className="form-control" placeholder="Your Name :" required/>
                     </div>
                 </div>                               
 
                 <div className="col-md-6 col-12">
                     <div className="mb-3">
-                        <label className="form-label fw-semibold" htmlFor="email"> Your Mail : </label>
-                        <input name="email" id="email" type="email" className="form-control" placeholder="Your Mail :"/>
+                        <label className="form-label fw-semibold" htmlFor="email"> Your Mail <span className="text-danger">*</span> </label>
+                        <input name="email" id="email" type="email" className="form-control" placeholder="Your Mail :" required/>
                     </div> 
                 </div>  
 
                 <div className="col-md-6 col-12">
                     <div className="mb-3">
-                        <label className="form-label fw-semibold" htmlFor="number2">Phone No. : </label>
-                        <input name="number" type="number" className="form-control" id="number2" placeholder="Phone :"/>
+                        <label className="form-label fw-semibold" htmlFor="number2">Phone No. <span className="text-danger">*</span> </label>
+                        <input name="number" type="text" className="form-control" id="number2" placeholder="Phone :" required/>
                     </div> 
                 </div> 
 
@@ -51,11 +51,11 @@ export default function MakeDonation() {
                 </div>
 
                 <div className="col-12">
-                    <label className="form-label fw-semibold">How much do you want to donate ?</label>
+                    <label className="form-label fw-semibold">How much do you want to donate ? <span className="text-danger">*</span></label>
                     <div className="mb-3">
                         <div className="input-group mb-3">
                             <span className="input-group-text" id="basic-addon1">$</span>
-                            <input type="number" className="form-control" min="1" max="1000" placeholder="Enter Amount" id="amount" aria-describedby="inputGroupPrepend" required/>
+                            <input type="number" className="form-control" min="1" placeholder="Enter Amount" id="amount" aria-describedby="inputGroupPrepend" required/>
                         </div>
                     </div>
                 </div>                                                                          

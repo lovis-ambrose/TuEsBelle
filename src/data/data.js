@@ -148,7 +148,7 @@ export const blogData = [
         image:team1,
         tag:'Tu Es Belle',
         title:'Message From the Founder',
-        desc:"Success needs hard work. Don't listen to these 'get rich quick' schemes.",
+        desc:"Growing up as a child there was always a thymos for a-lot of things happening that I didn't have the power to change.",
         date:'13th Sept 2024'
     },
     {

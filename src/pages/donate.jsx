@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import Donate from '../components/donate'
 import ScrollToTop from '../components/scroll-to-top'
 
 import bg from '../assets/images/hero/pages.jpg'
@@ -53,27 +54,10 @@ export default function Terms() {
             </div>
 
             <div className="mb-5">
-                <div className="col-md-6">
-                    <div className="card shadow-sm">
-                        <div className="card-body">
-                            <h4 className="card-title">Donate via Mobile Money</h4>
-                            <p className="card-text">
-                                Use the following mobile money lines to make your contribution. Every donation makes a difference.
-                            </p>
-                            <ul className="list-unstyled">
-                                <li className="mb-2">
-                                    <strong>Airtel Money:</strong> +256759889056 (Miss. Namukwaya Esther)
-                                </li>
-                                <li className="mb-2">
-                                    <strong>MTN Mobile Money:</strong> +256772250430 (Mrs. Sheebah Kakuba)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <Donate/>
             </div>
 
-            <div className="text-center mt-4">
+            <div className="text-center">
                 <p className="text-muted">
                     Thank you for your generosity. All donors will receive a receipt and regular updates on how your contributions are making a difference.
                 </p>

@@ -3,8 +3,8 @@ import Index from './pages';
 import OnePAge from './pages/onepage';
 import Aboutus from './pages/aboutus';
 import Services from './pages/services';
-import ServiceDetail from './pages/service-detail';
-import Pricing from './pages/pricing';
+import Volunteer from './pages/volunteer';
+import Donate from './pages/donate';
 import Team from './pages/team';
 import Testimonial from './pages/testimonial';
 import Faqs from './pages/faqs';
@@ -31,8 +31,8 @@ function App() {
         <Route path="/onepage" element={<OnePAge />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/service-detail" element={<ServiceDetail />} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/donate" element={<Donate />} />
         <Route path="/team" element={<Team />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/faqs" element={<Faqs />} />

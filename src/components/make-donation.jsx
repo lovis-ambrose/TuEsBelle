@@ -6,9 +6,9 @@ export default function MakeDonation() {
     <>
     <div className="p-4 rounded shadow position-relative bg-white">
         <div className="section-title">
-            <h4 className="title mb-3">Make a Donation</h4>
+            <h4 className="title mb-3">Pledge a Donation</h4>
             <p className="mb-0 text-muted">
-                Donate today—empower women, advance social justice!
+                Please fill out the donation pledge form. We shall be in touch. Thank you for your support.
             </p>
         </div>
 
@@ -62,13 +62,13 @@ export default function MakeDonation() {
 
                 <div className="col-12">
                     <div className="form-check">
-                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" required/>
                         <label className="form-check-label" htmlFor="flexCheckDefault">I agree to the <Link to="/terms" className="text-primary">Terms and Conditions</Link>.</label>
                     </div>
                 </div>                                    
 
                 <div className="col-12 mt-3">
-                    <button type="submit" id="donatefund" name="send" className="btn btn-primary">Donate Us</button>
+                    <button type="submit" id="donatefund" name="send" className="btn btn-primary">Submit Pledge</button>
                 </div>
             </div>
         </form>

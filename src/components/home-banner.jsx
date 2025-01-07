@@ -38,8 +38,8 @@ export default function HomeBanner() {
                         </p>
                         
                         <div className="mt-4 pt-2">
-                            <Link to="#" className="btn btn-primary me-1">Join Us</Link>
-                            <Link to="#" className="btn btn-soft-primary">Make a Donation</Link>
+                            <Link to="/volunteer" className="btn btn-primary me-1">Join Us</Link>
+                            <Link to="/donate" className="btn btn-soft-primary">Make a Donation</Link>
                         </div>
                     </div>
                 </div>

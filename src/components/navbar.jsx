@@ -80,11 +80,11 @@ export default function Navbar() {
 
                     <li className={manu === '/aboutus' ? 'active' : ''}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
                                 
-                    <li className={`has-submenu parent-parent-menu-item ${['/page-item','/service-detail','/pricing','/team','/testimonial','/faqs','/blog-item', '/blogs','/blog-sidebar', '/blog-detail','/auth-item','/login','/signup','/reset-password','/lock-screen','/terms-item', '/terms', '/privacy','/special-item','/comingsoon','/maintenance','/error'].includes(manu) ? 'active' : ''}`}>
+                    <li className={`has-submenu parent-parent-menu-item ${['/page-item','/volunteer','/donate','/team','/testimonial','/faqs','/blog-item', '/blogs','/blog-sidebar', '/blog-detail','/auth-item','/login','/signup','/reset-password','/lock-screen','/terms-item', '/terms', '/privacy','/special-item','/comingsoon','/maintenance','/error'].includes(manu) ? 'active' : ''}`}>
                         <Link to="#" onClick={()=>setManu(manu === '/page-item' ? '' : '/page-item')}>Pages</Link><span className="menu-arrow"></span>
-                        <ul className={`submenu ${['/page-item','/service-detail','/pricing','/team','/testimonial','/faqs','/blog-item', '/blogs','/blog-sidebar', '/blog-detail','/auth-item','/login','/signup','/reset-password','/lock-screen','/terms-item', '/terms', '/privacy','/special-item','/comingsoon','/maintenance','/error'].includes(manu) ? 'open' : ''}`}>
-                            <li className={manu === '/service-detail' ? 'active' : ''}><Link to="/service-detail" className="sub-menu-item">Service Detail</Link></li>
-                            {/* <li className={manu === '/pricing' ? 'active' : ''}><Link to="/pricing" className="sub-menu-item">Pricing</Link></li> */}
+                        <ul className={`submenu ${['/page-item','/volunteer','/donate','/team','/testimonial','/faqs','/blog-item', '/blogs','/blog-sidebar', '/blog-detail','/auth-item','/login','/signup','/reset-password','/lock-screen','/terms-item', '/terms', '/privacy','/special-item','/comingsoon','/maintenance','/error'].includes(manu) ? 'open' : ''}`}>
+                            <li className={manu === '/volunteer' ? 'active' : ''}><Link to="/volunteer" className="sub-menu-item">Become a Volunteer</Link></li>
+                            <li className={manu === '/donate' ? 'active' : ''}><Link to="/donate" className="sub-menu-item">Donate</Link></li>
                             <li className={manu === '/team' ? 'active' : ''}><Link to="/team" className="sub-menu-item">Team</Link></li>
                             <li className={manu === '/testimonial' ? 'active' : ''}><Link to="/testimonial" className="sub-menu-item">Testimonial</Link></li>
 

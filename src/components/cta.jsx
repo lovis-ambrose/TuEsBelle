@@ -16,7 +16,7 @@ export default function Cta() {
                 <div className="col-lg-4 col-md-5 col-10">
                     <div className="position-relative z-1 p-4 rounded shadow bg-white">
                         <div className="tiny-single-item">
-                            <h2>The 7cs law</h2>
+                            <h2>The 7C's law</h2>
                             <ul>
                                 <li><h5>Christ</h5></li>
                                 <li><h5>Confidence</h5></li>
